@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-color: white;
+    border: 0px solid;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 30px 100px 30px;
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+}
+
+button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#button1 {
+    background-color: lightseagreen;
+}
+
+#button2 {
+    background-color: orange;
+}
+
+#button3 {
+    background-color: rgb(185, 5, 185);
+}

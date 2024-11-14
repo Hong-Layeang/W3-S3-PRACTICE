@@ -1,0 +1,116 @@
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 5% auto;
+    background-color: rgb(32, 34, 57);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px gray;
+    width: 350px;
+    height: 550px;
+}
+
+.navigation {
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#icon {
+    border-radius: 100px;
+    padding: 5px;
+}
+
+#icon:hover {
+    color: rgb(232, 68, 133);
+    background-color: rgba(255, 255, 255, 0.06);
+    cursor: pointer;
+}
+
+img {
+    margin-top: 25px;
+    height: 125px;
+    width: 125px;
+    border: 2px solid gray;
+    border-radius: 100px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 2px;
+}
+
+img:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.702);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 1;
+}
+
+.job-title {
+    margin-top: -15px;
+    color: rgb(150, 153, 172);
+    font-size: 15px;
+}
+
+.description {
+    margin: 15px 80px;
+    color: rgb(195, 196, 207);
+    font-size: 15px;
+}
+
+button {
+    color: white;
+    padding: 10px;
+    background-color: rgb(232, 68, 133);
+    width: 100px;
+    border-radius: 35px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.466);
+}
+
+button:hover {
+    background-color: rgb(230, 41, 116);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.325);
+    cursor: pointer;
+}
+
+hr {
+    margin: 35px 25px 32px;
+    border: 0.5px solid rgba(255, 255, 255, 0.170);
+}
+
+.media-logo {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#facebook {
+    /* color: #1877F2; */
+    color: #74c0fc;
+}
+#reddit {
+    color: #ff7644;
+}
+#instagram {
+    color:#ff578f;
+}
